@@ -1,0 +1,107 @@
+
+<style>	
+				*{margin:0px;}	
+				h1{	
+					text-align: center;	
+					margin-bottom: 20px;	
+					margin-top: 10px;	
+				}	
+				p{	
+					padding: 5px;	
+				}	
+				.c1{
+					background-color: grey;	
+					border:black;	
+					border: 3px solid black;	
+				
+					}	
+				.c2{	
+					background-color: grey;	
+					border:black;	
+					border: 3px solid black;	
+				
+				}	
+				.c3{
+					background-color: grey;	
+					border: 3px solid black;	
+					
+				}	
+
+				h2{	
+					margin: 0px 0px;	
+					float: right;	
+					border-bottom: 2px solid black;	
+					border-left: 2px solid black;	
+					}	
+					
+				#beef{	
+					background-color: red;	
+					color: white;	
+					padding: 2px;	
+					}	
+				#Chicken{	
+					background-color: pink;	
+					padding: 2px;	
+				}	
+				#sushi{	
+					background-color: lightyellow;	
+					padding: 2px;	
+				}	
+				@media  (min-width: 992px){
+				.c1{
+					width: 30%;
+					margin-left: 30PX;
+					float: left;
+					}
+				.c2{
+					width: 30%;
+					margin-left: 20PX;
+					float: left;
+					}		
+				.c3{
+					width: 30%;
+					margin-left: 20PX;
+					float: left;
+
+					}	
+				}	
+				@media(max-width: 768px){
+				.c1{ 
+					width: 100%;
+					margin-bottom: 20PX;
+					margin-right: 15PX;
+					}
+				.c2{
+					width: 100%;
+					margin-bottom: 20PX;
+					margin-right: 15PX;
+					}		
+				.c3{
+					width: 100%;
+					margin-bottom: 20PX;
+					margin-right: 15PX;
+					}	
+				}
+				}
+				@media(min-width: 768px) {/*i need help for tablet form ,i do not know why it does not work. please help me.*/
+				.c1{ 
+					width: 40% ;
+					margin-bottom: 20PX;
+					margin-left: 20px;
+					float: left;
+					background-color: red: 
+					}
+				.c2{
+					width: 40%;
+					margin-bottom: 20PX;
+					margin-left: 20px;
+				    float: left;
+					}		
+				.c3{
+					width: 100%;
+					margin-left: 80px;
+					
+
+					}
+
+</style>
